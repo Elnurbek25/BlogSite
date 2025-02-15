@@ -7,7 +7,7 @@ use App\Http\Controllers\MainController;
 use App\Http\Controllers\PostController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\NotificationController;
-//Asosiy
+
 Route::get('/',[MainController::class,'dashboard'])->name('home');
 Route::get('Mainpage',[MainController::class,'index'])->name('main');
 //User Yaratish Login Qilish
