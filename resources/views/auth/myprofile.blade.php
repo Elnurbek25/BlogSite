@@ -37,7 +37,7 @@
             @if ($post->image)
                               <img src="{{ asset('storage/' . $post->image->image_path) }}" alt="Post Image">
                                @else
-                           <p>No image available for this post.</p>
+                           <p>No image available for this post. </p>
                                  @endif
                 <h3 class="text-xl font-bold mb-2">{{$post->title}}</h3>
                 <p class="text-gray-700 mb-4">{{$post->description}}</p>
