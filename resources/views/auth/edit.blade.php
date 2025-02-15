@@ -25,7 +25,7 @@
                 </div>
                 <div>
                     @error('username')
-                        <p style="color: red">{{'* ' . $message}}</p>
+                        <p style="color: red">{{' * ' . $message}}</p>
                     @enderror
                 </div>
                 <div class="mb-4">
