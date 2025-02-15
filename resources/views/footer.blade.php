@@ -14,13 +14,13 @@
                                 clip-rule="evenodd" />
                         </svg>
                     </a>
-                    <a href="https://x.com/a_elnurbek?s=11" class="text-gray-400 hover:text-gray-500">
-                        <span class="sr-only">Twitter</span>
+                    <a href="https://www.instagram.com/elnurbek_025?igsh=MTB6eGVnaW4xOWRiag==" class="text-gray-400 hover:text-gray-500">
+                        <span class="sr-only">Instagram</span>
                         <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                            <path
-                                d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+                            <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5a4.25 4.25 0 0 0 4.25-4.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zM12 6.5a5.5 5.5 0 1 1 0 11 5.5 5.5 0 0 1 0-11zm0 1.5a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm5.75-.75a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0z"/>
                         </svg>
                     </a>
+                    
                     <a href="https://github.com/Elnurbek25" class="text-gray-400 hover:text-gray-500">
                         <span class="sr-only">GitHub</span>
                         <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -29,6 +29,16 @@
                                 clip-rule="evenodd" />
                         </svg>
                     </a>
+
+                    <a href="https://t.me/Elnurbek" class="text-gray-400 hover:text-gray-500">
+                        <span class="sr-only">Telegram</span>
+                        <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M21.543 2.467a1.2 1.2 0 0 0-1.232-.192L2.89 9.247a1.2 1.2 0 0 0 .127 2.26l4.92 1.478 2.21 6.515a1.2 1.2 0 0 0 1.862.582l3.17-2.494 4.414 3.36a1.2 1.2 0 0 0 1.907-.8l2.153-16a1.2 1.2 0 0 0-.87-1.182zM9.06 13.313l6.505-4.67a.4.4 0 0 1 .618.45l-5.338 5.45-.693 3.108-1.092-3.376z"/>
+                        </svg>
+                    </a>
+                    
+                    
+                    
                 </div>
             </div>
         </div>
