@@ -23,7 +23,7 @@
             </form>
             <p class="mt-4 text-center text-sm text-gray-600">
                 Don't have an account? <a href="{{route('registerForm')}}"
-                    class="text-indigo-600 hover:text-indigo-500">Register</a>
+                    class="text-indigo-600 hover:text-indigo-500">Register </a>
             </p>
         </div>
     </div>
