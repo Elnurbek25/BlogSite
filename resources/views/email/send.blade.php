@@ -6,7 +6,7 @@
     <title>Email Tasdiqlash</title>
 </head>
 <body>
-    <h1>Assalomu alaykum, {{ $user_name }}!</h1>
+    <h1>Assalomu alaykum,  {{ $user_name }}!</h1>
     <p>Emailingizni tasdiqlash uchun quyidagi havolani bosing:</p>
     <p>
         <a href="{{ $link }}">Emailni tasdiqlash</a>
