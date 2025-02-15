@@ -42,12 +42,12 @@
                 <h3 class="text-xl font-bold mb-2">{{$post->title}}</h3>
                 <p class="text-gray-700 mb-4">{{$post->description}}</p>
                     <div class="flex space-x-2">
-                        <a href="{{route('posts.show', $post->id)}}" class="text-indigo-600 hover:text-indigo-800">Read More</a>
-                        <a href="{{route('posts.edit', $post->id)}}" class="text-green-600 hover:text-green-800">Edit</a>
+                        <a href="{{route('posts.show', $post->id)}}" class="text-indigo-600 hover:text-indigo-800">Show this post</a>
+                        <a href="{{route('posts.edit', $post->id)}}" class="text-green-600 hover:text-green-800">Edit this post</a>
                         <form action="{{route('posts.destroy', $post->id)}}" method="POST" >
                             @csrf
                             @method('DELETE')
-                            <button class="text-red-600 hover:text-red-800">Delete</button>
+                            <button class="text-red-600 hover:text-red-800">Delete this post</button>
                         </form>
                     </div>
             </div>
