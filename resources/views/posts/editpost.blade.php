@@ -2,7 +2,7 @@
 @section('content')
 <main class="flex-grow container mx-auto px-4 py-8">
         <div class="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-md">
-            <h1 class="text-2xl font-bold mb-6">Edit Post</h1>
+            <h1 class="text-2xl font-bold mb-6">Edit Post </h1>
             <a href="{{route('posts.show', $post->id)}}" class="text-indigo-600 hover:text-indigo-800 underline mb-4">Back</a>
             <form action="{{route('posts.update', $post->id)}}" method="POST" enctype="multipart/form-data">
                 @csrf
