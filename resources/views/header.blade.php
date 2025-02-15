@@ -30,7 +30,7 @@
                             class="bg-white rounded-full flex focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                             id="notifications-menu" aria-expanded="false" aria-haspopup="true"
                             onclick="document.getElementById('notifications-dropdown').classList.toggle('hidden')">
-                            <span class="sr-only">Open notifications menu</span>
+                            <span class="sr-only">Open notifications menyu</span>
 
                             <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                 fill="currentColor" viewBox="0 0 16 16">
