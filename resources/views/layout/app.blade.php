@@ -12,7 +12,7 @@
 
 
     @include('header')
-    <!-- Main content -->
+    <!-- Main  content -->
     <main class="flex-grow container mx-auto px-4 py-8">
         @yield('content')
     </main>
