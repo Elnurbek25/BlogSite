@@ -31,7 +31,7 @@
                     </a>
 
                     <a href="https://t.me/Elnurbek" class="text-gray-400 hover:text-gray-500">
-                        <span class="sr-only">Telegram</span>
+                        <span class="sr-only">Telegram</span>  
                         <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                             <path d="M21.543 2.467a1.2 1.2 0 0 0-1.232-.192L2.89 9.247a1.2 1.2 0 0 0 .127 2.26l4.92 1.478 2.21 6.515a1.2 1.2 0 0 0 1.862.582l3.17-2.494 4.414 3.36a1.2 1.2 0 0 0 1.907-.8l2.153-16a1.2 1.2 0 0 0-.87-1.182zM9.06 13.313l6.505-4.67a.4.4 0 0 1 .618.45l-5.338 5.45-.693 3.108-1.092-3.376z"/>
                         </svg>
