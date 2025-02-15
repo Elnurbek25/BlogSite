@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+//
 use App\Models\User;
 use App\Notifications\NewFollowerNotification;
 use Illuminate\Http\Request;
