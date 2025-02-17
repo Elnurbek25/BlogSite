@@ -1,7 +1,6 @@
 <?php
 
-use App\Http\Middleware\PostMiddleware;
-use App\Http\Middleware\RegisterMiddleware;
+
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Foundation\Configuration\Middleware;
@@ -14,8 +13,8 @@ return Application::configure(basePath: dirname(__DIR__))
     )
     ->withMiddleware(function (Middleware $middleware) {
         $middleware->alias([
-         'register' => RegisterMiddleware::class,
-         'post' => PostMiddleware::class, 
+         'register' => App\Http\Middleware\RegisterMiddleware::class,
+         'post' => App\Http\Middleware\PostMiddleware::class 
         ]);
     })
     ->withExceptions(function (Exceptions $exceptions) {
