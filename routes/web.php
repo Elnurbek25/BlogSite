@@ -30,10 +30,11 @@ Route::patch('/read/notify{id}', [NotificationController::class,'readNotify'])->
 //Postlar Uchun
 Route::resource( '/posts', PostController::class);
 
-Route::get('/posts/{post}', [PostController::class,'show'])->name('posts.show');
+
 //Follow va notify uchun
 Route::post('/follow/{user}',[FollowController::class,'follow'])->name('follow');
 Route::delete('/follow/{id}', [FollowController::class, 'unfollow'])->name('unfollow');
 Route::get('/notify',[FollowController::class,'notify'])->name('notify');
 });
 Route::get('/posts', [PostController::class,'index'])->name('posts.index');
+Route::get('/posts/{post}', [PostController::class,'show'])->name('posts.show');
